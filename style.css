@@ -1,0 +1,106 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
+ body{
+    margin: auto 0;
+    background:#fff;
+ }
+ #wrapper{
+    width: 90%;
+    max-width: 375px;
+    margin-inline:  auto ;   
+ }
+ .main{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding: 35px;
+    background:hsl(212, 45%, 89%);
+    margin-bottom: 5%;
+ }
+ .main-content{
+    background: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 13px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+ }
+ .image img{
+    width: 100%;
+    border-radius: 10px;
+ }
+ .content{
+    margin-top: 5%;
+    padding: 15px;
+    font-family: 'Outfit', sans-serif;
+ }
+ .head{
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 5%;
+    text-align:center;
+ }
+ .content p{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    color: hsl(220, 15%, 55%);
+    font-size: 14px;
+ }
+@media screen and (min-width:750px){
+    body{
+        margin: auto 0;
+        background:hsl(212, 45%, 89%);
+     }
+    #wrapper{
+        width: 75%;
+        max-width: 1440px;
+        margin-inline:  auto ;
+    }
+    .main{
+        font-family: 'Outfit', sans-serif;
+        font-size: 15px;
+        padding: 25px;
+        margin: 15% 20%;
+        background:hsl(212, 45%, 89%);
+        margin-bottom: 5%;
+     }
+     .main-content{
+        background: hsl(0, 0%, 100%);
+        padding: 15px;
+        border-radius: 13px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+     }
+     .content{
+        margin-top: 2%;
+        padding: 20px;
+        font-family: 'Outfit', sans-serif;
+        text-align: center;
+     }
+     .head{
+        width: 90%;
+        font-weight: 700;
+        font-size: 40px;
+        margin-left: 4%;
+        margin-bottom: 5%;
+     }
+     .content p{
+        width:90%;
+        font-weight: 400;
+        margin-top: 5%;
+        margin-left: 4%;
+        line-height: 40px;
+        color: hsl(220, 15%, 55%);
+        font-size: 30px;
+     }
+    
+
+        
+} 
+
+
+
